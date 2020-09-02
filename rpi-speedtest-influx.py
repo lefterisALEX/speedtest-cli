@@ -9,7 +9,7 @@ from influxdb import InfluxDBClient
 ifuser = "admin"
 ifpass = "test"
 ifdb   = "speedtests"
-ifhost = "influxdb"
+ifhost = "127.0.0.1"
 ifport = 8086
 measurement_name = "speedtests"
 
