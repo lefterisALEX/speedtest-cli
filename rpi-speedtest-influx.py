@@ -6,10 +6,10 @@ import os
 from influxdb import InfluxDBClient
 
 # influx configuration - edit these
-ifuser = "speedtest"
+ifuser = "admin"
 ifpass = "test"
 ifdb   = "speedtests"
-ifhost = "127.0.0.1"
+ifhost = "influxdb"
 ifport = 8086
 measurement_name = "speedtests"
 
