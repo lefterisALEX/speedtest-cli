@@ -6,14 +6,12 @@ import os
 from influxdb import InfluxDBClient
 
 # influx configuration - edit these
-ifuser = "test"
+ifuser = "speedtest"
 ifpass = "test"
 ifdb   = "speedtests"
 ifhost = "127.0.0.1"
 ifport = 8086
-measurement_prefix = os.environ['HOST_HOSTNAME']
-measurement_suffix = os.environ['TABLE']
-measurement_name = measurement_prefix + "-" + measurement_suffix
+measurement_name = "speedtests"
 
 
 # take a timestamp for this measurement
